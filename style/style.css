@@ -1,0 +1,166 @@
+:root {
+  --background-skin: #ebe3cc;
+  --darkblue: #062d3e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: josefin sans;
+}
+
+body {
+  background-color: var(--darkblue);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: var(--darkblue);
+}
+
+h1 span {
+  color: #ed5c01;
+}
+h1 {
+  color: var(--darkblue);
+  font-size: 2.5rem;
+}
+#sign-up-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--darkblue);
+  font-size: 16px;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+
+.nav-container li a {
+  color: var(--darkblue);
+  text-decoration: underline dotted #ed5c01;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+
+
+.first-section--tittle-and-a a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ed5c01;
+  color: #fff;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.first-section--img {
+  min-width: 280px;
+  max-width: 400px;  
+  position: relative;
+  top: 14px;
+}
+
+.first-section--img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.second-section{
+    background-color: #ed5c01;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.category-sticker-img{
+    max-width:140px;
+
+}
+
+.correa-perro-img{
+    position: relative;
+    left: -20px;
+    width: 90px;
+    height: 90px;
+    margin-right:20px ;
+}
+
+.category-sticker-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.hilo-amarillo{
+    position: absolute;
+    width: 200px;
+    top: 280px;
+    right: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 8px;
+    visibility: hidden;
+  }
+
+  #nav-burger-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--darkblue);
+  }
+  .nav-burger-close-btn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: var(--darkblue);
+    visibility: hidden;
+  }
+  .visible {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .margin-top {
+    margin-top: 130px;
+  }
+}

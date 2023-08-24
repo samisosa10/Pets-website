@@ -1,0 +1,18 @@
+@media screen and (min-width:768px){
+    #nav-burger-btn, .nav-burger-close-btn{
+        display: none;
+    }
+
+    .first-section{
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .first-section--tittle-and-a{
+        width: 700px;
+    }
+
+    .nav-container{
+        gap: 30px;
+    }
+}
