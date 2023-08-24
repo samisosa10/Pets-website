@@ -1,8 +1,10 @@
-@media screen and (min-width:768px){
+@media screen and (min-width:551px ){
     #nav-burger-btn, .nav-burger-close-btn{
         display: none;
     }
+}
 
+@media screen and (min-width:768px){
     .first-section{
         flex-direction: row;
         gap: 15px;
@@ -15,4 +17,18 @@
     .nav-container{
         gap: 30px;
     }
+
+    .four-section{
+        flex-direction: row;
+    }
+    
 }
+
+@media screen and (min-width:900px){
+    .container-cards{
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
