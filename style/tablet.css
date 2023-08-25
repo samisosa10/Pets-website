@@ -21,6 +21,27 @@
     .four-section{
         flex-direction: row;
     }
+
+    footer{
+        padding: 50px;
+    }
+
+    .six-section{
+        flex-direction: row;
+    }
+
+    .container-yellow{
+        width: 100%;
+        
+    }
+    
+    .container-orange{
+        width: 60%;
+        padding-left:60px ;
+        clip-path: polygon(16% 0, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    
     
 }
 
