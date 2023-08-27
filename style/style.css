@@ -174,7 +174,7 @@ h1 {
   gap: 20px;
   min-width: 280px;
   max-width: 300px;
-  height: 420px;
+  height: 380px;
   padding: 30px 20px;
 }
 .card-rectagular {
@@ -360,6 +360,11 @@ footer ul li a{
   font-size: 13px;
 }
 
+.brow-dog-img{
+  position: relative;
+  top: 30px;
+}
+
 @media screen and (max-width: 550px) {
   header {
     justify-content: space-around;
@@ -410,8 +415,5 @@ footer ul li a{
     transform: scale(1.1);
   }
 
-  .brow-dog-img{
-    position: relative;
-    top: 30px;
-  }
+  
 }
